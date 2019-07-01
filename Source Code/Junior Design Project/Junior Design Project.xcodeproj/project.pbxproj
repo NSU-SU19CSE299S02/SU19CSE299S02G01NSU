@@ -12,6 +12,7 @@
 		2B00723822C1F24800FA03F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B00723622C1F24800FA03F1 /* Main.storyboard */; };
 		2B00723A22C1F24900FA03F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B00723922C1F24900FA03F1 /* Assets.xcassets */; };
 		2B00723D22C1F24900FA03F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B00723B22C1F24900FA03F1 /* LaunchScreen.storyboard */; };
+		2BC319B222C943AA000AEDB3 /* whiteTextWithDarkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC319B122C943AA000AEDB3 /* whiteTextWithDarkBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2B00723922C1F24900FA03F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B00723C22C1F24900FA03F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B00723E22C1F24900FA03F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC319B122C943AA000AEDB3 /* whiteTextWithDarkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteTextWithDarkBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		2B00723122C1F24800FA03F1 /* Junior Design Project */ = {
 			isa = PBXGroup;
 			children = (
+				2BC319B022C93E7D000AEDB3 /* Models */,
+				2BC319AF22C93E6D000AEDB3 /* Views */,
+				2BC319AD22C93E51000AEDB3 /* Controller */,
 				2B00723222C1F24800FA03F1 /* AppDelegate.swift */,
-				2B00723422C1F24800FA03F1 /* ViewController.swift */,
 				2B00723622C1F24800FA03F1 /* Main.storyboard */,
 				2B00723922C1F24900FA03F1 /* Assets.xcassets */,
 				2B00723B22C1F24900FA03F1 /* LaunchScreen.storyboard */,
 				2B00723E22C1F24900FA03F1 /* Info.plist */,
 			);
 			path = "Junior Design Project";
+			sourceTree = "<group>";
+		};
+		2BC319AD22C93E51000AEDB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B00723422C1F24800FA03F1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BC319AF22C93E6D000AEDB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BC319B122C943AA000AEDB3 /* whiteTextWithDarkBackground.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BC319B022C93E7D000AEDB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			files = (
 				2B00723522C1F24800FA03F1 /* ViewController.swift in Sources */,
 				2B00723322C1F24800FA03F1 /* AppDelegate.swift in Sources */,
+				2BC319B222C943AA000AEDB3 /* whiteTextWithDarkBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
