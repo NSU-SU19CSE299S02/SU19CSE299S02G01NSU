@@ -18,25 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="65318155_363119894404321_7373930132462895104_n" translatesAutoresizingMaskIntoConstraints="NO" id="3hs-5e-R7X">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WelcomeScreenBg" translatesAutoresizingMaskIntoConstraints="NO" id="3hs-5e-R7X">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Who Is Nearby will send you a verification code in your mobile number to verify your number" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Skd-g5-xVs">
-                                <rect key="frame" x="30" y="616" width="354" height="61"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Scan your Middle East Visa and collect information about it" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9ZK-0p-N7U">
+                                <rect key="frame" x="87" y="314" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3hs-5e-R7X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TiB-x3-Idk"/>
-                            <constraint firstItem="Skd-g5-xVs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="XUB-lT-B5q"/>
                             <constraint firstItem="3hs-5e-R7X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dIj-3X-E0W"/>
                             <constraint firstAttribute="bottom" secondItem="3hs-5e-R7X" secondAttribute="bottom" id="fIV-1i-zfS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Skd-g5-xVs" secondAttribute="trailing" constant="30" id="n9c-up-BvN"/>
-                            <constraint firstItem="Skd-g5-xVs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="572" id="u5Z-XL-ZIN"/>
                             <constraint firstItem="3hs-5e-R7X" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wx5-o8-al7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -89,7 +88,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="65318155_363119894404321_7373930132462895104_n" width="960" height="1704"/>
         <image name="Rectangle" width="320" height="568"/>
+        <image name="WelcomeScreenBg" width="414" height="896"/>
     </resources>
 </document>
