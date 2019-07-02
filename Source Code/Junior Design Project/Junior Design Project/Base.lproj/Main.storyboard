@@ -22,14 +22,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Scan your Middle East Visa and collect information about it" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9ZK-0p-N7U">
-                                <rect key="frame" x="87" y="314" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMf-cF-wp6">
+                                <rect key="frame" x="96" y="166" width="223" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="53"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scan your middle east visa and collect important information about it" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DO-FV-5qw">
+                                <rect key="frame" x="20" y="389" width="374" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyB-aM-hRN">
+                                <rect key="frame" x="41" y="731" width="333" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Next Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -56,27 +67,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="QfK-xk-KSN">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Varify your phone number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gq-ji-LV7">
-                                <rect key="frame" x="36" y="79" width="342" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="29"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Find Who Is Nearby will send you a verification code in your mobile number to verify your number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EoF-Eu-0D1" customClass="blurryTextFieldWithWhitePlaceholderAndText" customModule="Junior_Design_Project" customModuleProvider="target">
-                                <rect key="frame" x="49" y="154" width="315" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QfK-xk-KSN" firstAttribute="leading" secondItem="9a6-dG-hzA" secondAttribute="leading" id="HiA-U5-BfU"/>
                             <constraint firstItem="QfK-xk-KSN" firstAttribute="trailing" secondItem="9a6-dG-hzA" secondAttribute="trailing" id="Y6i-dI-y3c"/>
-                            <constraint firstItem="2gq-ji-LV7" firstAttribute="centerX" secondItem="TFf-f5-cPP" secondAttribute="centerX" id="dM6-FK-wS2"/>
                             <constraint firstItem="QfK-xk-KSN" firstAttribute="top" secondItem="TFf-f5-cPP" secondAttribute="top" id="dkz-50-IXM"/>
-                            <constraint firstItem="2gq-ji-LV7" firstAttribute="top" secondItem="9a6-dG-hzA" secondAttribute="top" constant="35" id="qfo-bV-niM"/>
                             <constraint firstAttribute="bottom" secondItem="QfK-xk-KSN" secondAttribute="bottom" id="rSO-A8-ItO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9a6-dG-hzA"/>
@@ -88,6 +84,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Next Button" width="333" height="52"/>
         <image name="Rectangle" width="320" height="568"/>
         <image name="WelcomeScreenBg" width="414" height="896"/>
     </resources>
