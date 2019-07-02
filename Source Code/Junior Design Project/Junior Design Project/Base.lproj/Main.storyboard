@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WelcomeScreenBg" translatesAutoresizingMaskIntoConstraints="NO" id="3hs-5e-R7X">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WelcomeScreenBg" translatesAutoresizingMaskIntoConstraints="NO" id="3hs-5e-R7X">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
@@ -99,6 +99,16 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fUN-Jg-JNp" customClass="CurrencyTxtField" customModule="Junior_Design_Project" customModuleProvider="target">
+                                <rect key="frame" x="84" y="166" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UzR-Mp-Thq"/>
+                                    <constraint firstAttribute="width" constant="2" id="wrb-4U-MRO"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hbt-kO-jKM" customClass="CurrencyTxtField" customModule="Junior_Design_Project" customModuleProvider="target">
                                 <rect key="frame" x="87" y="291" width="97" height="30"/>
                                 <constraints>
@@ -129,22 +139,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fUN-Jg-JNp" customClass="CurrencyTxtField" customModule="Junior_Design_Project" customModuleProvider="target">
-                                <rect key="frame" x="84" y="166" width="97" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="UzR-Mp-Thq"/>
-                                    <constraint firstAttribute="width" constant="2" id="wrb-4U-MRO"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu6-p8-yfK">
+                                <rect key="frame" x="40.5" y="760" width="333" height="52"/>
+                                <state key="normal" image="ConfirmBtn"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="xu6-p8-yfK" firstAttribute="centerX" secondItem="TFf-f5-cPP" secondAttribute="centerX" id="GXK-f3-LS6"/>
                             <constraint firstItem="QfK-xk-KSN" firstAttribute="leading" secondItem="9a6-dG-hzA" secondAttribute="leading" id="HiA-U5-BfU"/>
                             <constraint firstItem="QfK-xk-KSN" firstAttribute="trailing" secondItem="9a6-dG-hzA" secondAttribute="trailing" id="Y6i-dI-y3c"/>
                             <constraint firstItem="QfK-xk-KSN" firstAttribute="top" secondItem="TFf-f5-cPP" secondAttribute="top" id="dkz-50-IXM"/>
+                            <constraint firstItem="9a6-dG-hzA" firstAttribute="bottom" secondItem="xu6-p8-yfK" secondAttribute="bottom" constant="50" id="iEU-dM-lW2"/>
                             <constraint firstAttribute="bottom" secondItem="QfK-xk-KSN" secondAttribute="bottom" id="rSO-A8-ItO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9a6-dG-hzA"/>
@@ -156,6 +162,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ConfirmBtn" width="333" height="52"/>
         <image name="Next Button" width="333" height="52"/>
         <image name="Rectangle" width="320" height="568"/>
         <image name="WelcomeScreenBg" width="414" height="896"/>
