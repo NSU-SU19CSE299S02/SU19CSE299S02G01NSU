@@ -43,9 +43,9 @@ class greyBackgroundForTextField: UITextField {
         clipsToBounds = true
         
         if let p = placeholder {
-            let place = NSAttributedString(string: p, attributes: [.foregroundColor: #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)])
+            let place = NSAttributedString(string: p, attributes: [.foregroundColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.6000000238)])
             attributedPlaceholder = place
-            textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         }
     }
     
