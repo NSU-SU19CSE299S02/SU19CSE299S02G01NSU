@@ -45,8 +45,6 @@ It may be able to guess the salary or shows the wage if it is available in the v
 
 
 
-
-
 Technology: 
 
 We will be using the latest version of swift 4 for making the iOS App. Swift 4 is fast and reliable for developing new apps for iOS development Apple is developing it for the last few years for a better and quicker app experience, and they are introducing some new features in every year which is making the language more usable. We know that for database for apps, one of the most reliable providers is Firestore. Firestore is much easier and faster it is expensive compared to the other databases, but as this app is for working class people, we will make less profit from the app because the money we can earn by showing them ad on the app we will invest in the database management or the development of the app. We will be using google translator API to translate Arabic to English or Bengali to translate the Arabic language.
