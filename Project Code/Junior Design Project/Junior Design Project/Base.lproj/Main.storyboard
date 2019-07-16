@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--User LoginVC-->
         <scene sceneID="Lzh-S0-MxB">
             <objects>
-                <viewController id="AVn-jo-hm6" sceneMemberID="viewController">
+                <viewController id="AVn-jo-hm6" customClass="UserLoginVC" customModule="Junior_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TFf-f5-cPP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,6 +130,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19S-rO-rJN">
+                                <rect key="frame" x="35" y="44" width="29" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButton"/>
+                                <connections>
+                                    <segue destination="AVn-jo-hm6" kind="show" id="DQ0-lO-csu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -171,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="901.60000000000002" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--User VerficationVC-->
         <scene sceneID="VVz-DE-1UA">
             <objects>
-                <viewController id="h7d-GB-doi" sceneMemberID="viewController">
+                <viewController id="h7d-GB-doi" customClass="UserVerficationVC" customModule="Junior_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z5p-sb-3LK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -216,6 +224,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pv1-tP-eWg">
+                                <rect key="frame" x="30" y="41" width="29" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -254,5 +267,6 @@
         <image name="Next Button" width="333" height="52"/>
         <image name="Rectangle" width="320" height="568"/>
         <image name="WelcomeScreenBg" width="414" height="896"/>
+        <image name="backButton" width="29" height="24"/>
     </resources>
 </document>
