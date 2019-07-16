@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    @IBAction func unwindFromSkillVC(unwindSeque: UIStoryboardSegue){
+    @IBAction func unwindFromUserLoginVC(unwindSeque: UIStoryboardSegue){
         
     }
 
