@@ -176,10 +176,10 @@
             </objects>
             <point key="canvasLocation" x="901.60000000000002" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--User-->
         <scene sceneID="VVz-DE-1UA">
             <objects>
-                <viewController id="h7d-GB-doi" sceneMemberID="viewController">
+                <viewController id="h7d-GB-doi" customClass="User" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z5p-sb-3LK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

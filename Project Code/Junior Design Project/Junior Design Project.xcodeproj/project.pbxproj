@@ -17,6 +17,8 @@
 		2BCF4E2B22CA92EA0041CF61 /* darkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF4E2A22CA92EA0041CF61 /* darkBackground.swift */; };
 		2BF972F722DDA7B500F838DA /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF972F622DDA7B500F838DA /* UserLogin.swift */; };
 		2BF972F922DDA7D300F838DA /* UserVerfication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF972F822DDA7D300F838DA /* UserVerfication.swift */; };
+		2BF972FD22DDA9A600F838DA /* UserLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF972FC22DDA9A600F838DA /* UserLoginVC.swift */; };
+		2BF972FF22DDA9B600F838DA /* UserVerficationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF972FE22DDA9B600F838DA /* UserVerficationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		2BCF4E2A22CA92EA0041CF61 /* darkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkBackground.swift; sourceTree = "<group>"; };
 		2BF972F622DDA7B500F838DA /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 		2BF972F822DDA7D300F838DA /* UserVerfication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVerfication.swift; sourceTree = "<group>"; };
+		2BF972FC22DDA9A600F838DA /* UserLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginVC.swift; sourceTree = "<group>"; };
+		2BF972FE22DDA9B600F838DA /* UserVerficationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVerficationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				2B00723422C1F24800FA03F1 /* WelcomeScreen.swift */,
 				2BF972F622DDA7B500F838DA /* UserLogin.swift */,
 				2BF972F822DDA7D300F838DA /* UserVerfication.swift */,
+				2BF972FC22DDA9A600F838DA /* UserLoginVC.swift */,
+				2BF972FE22DDA9B600F838DA /* UserVerficationVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,10 +181,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B910C2722D0ED6300FF154C /* greyBackgroundForTextField.swift in Sources */,
+				2BF972FF22DDA9B600F838DA /* UserVerficationVC.swift in Sources */,
 				2BF972F922DDA7D300F838DA /* UserVerfication.swift in Sources */,
 				2B00723522C1F24800FA03F1 /* WelcomeScreen.swift in Sources */,
 				2BF972F722DDA7B500F838DA /* UserLogin.swift in Sources */,
 				2BCF4E2B22CA92EA0041CF61 /* darkBackground.swift in Sources */,
+				2BF972FD22DDA9A600F838DA /* UserLoginVC.swift in Sources */,
 				2B00723322C1F24800FA03F1 /* AppDelegate.swift in Sources */,
 				2BCF4E2922CA8F730041CF61 /* blurBackground.swift in Sources */,
 			);
