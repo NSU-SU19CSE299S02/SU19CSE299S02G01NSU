@@ -1,6 +1,6 @@
 # SU19CSE299S02G01NSU
 
-Project Name: Middle East Visa Language Translator
+# Project Name: Middle East Visa Language Translator
 Course Number: CSE299
 Section: 02
 Group No: 01
