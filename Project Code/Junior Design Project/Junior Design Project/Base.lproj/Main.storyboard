@@ -92,13 +92,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu6-p8-yfK">
-                                <rect key="frame" x="40.5" y="804" width="333" height="52"/>
-                                <state key="normal" image="ConfirmBtn"/>
-                                <connections>
-                                    <segue destination="h7d-GB-doi" kind="show" id="266-Ez-VCB"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEK-rj-nbe" customClass="greyBackgroundForTextField" customModule="Junior_Design_Project" customModuleProvider="target">
                                 <rect key="frame" x="35" y="168.5" width="344" height="40"/>
                                 <nil key="textColor"/>
@@ -137,6 +130,13 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="IAI-zc-F4I"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu6-p8-yfK">
+                                <rect key="frame" x="41" y="739" width="333" height="52"/>
+                                <state key="normal" image="ConfirmBtn"/>
+                                <connections>
+                                    <segue destination="h7d-GB-doi" kind="show" id="266-Ez-VCB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -153,7 +153,7 @@
                             <constraint firstItem="9a6-dG-hzA" firstAttribute="trailing" secondItem="nKF-NW-n6E" secondAttribute="trailing" constant="35" id="KCm-sV-u1T"/>
                             <constraint firstItem="1AS-55-9XX" firstAttribute="leading" secondItem="XsM-dE-nyQ" secondAttribute="leading" id="O74-na-A6q"/>
                             <constraint firstItem="GoB-s4-vtE" firstAttribute="leading" secondItem="9a6-dG-hzA" secondAttribute="leading" constant="35" id="QRG-Jj-Rqn"/>
-                            <constraint firstAttribute="bottom" secondItem="xu6-p8-yfK" secondAttribute="bottom" constant="40" id="Ric-IC-4qK"/>
+                            <constraint firstAttribute="bottom" secondItem="xu6-p8-yfK" secondAttribute="bottom" constant="100" id="Ric-IC-4qK"/>
                             <constraint firstItem="SEK-rj-nbe" firstAttribute="top" secondItem="GoB-s4-vtE" secondAttribute="bottom" constant="10" id="T5N-Y9-BAV"/>
                             <constraint firstItem="XsM-dE-nyQ" firstAttribute="leading" secondItem="SEK-rj-nbe" secondAttribute="leading" id="X41-ep-NaB"/>
                             <constraint firstItem="9a6-dG-hzA" firstAttribute="trailing" secondItem="xN1-xj-9jW" secondAttribute="trailing" constant="35" id="YTw-ow-11w"/>
@@ -214,7 +214,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-bW-Ndr">
-                                <rect key="frame" x="40.5" y="804" width="333" height="52"/>
+                                <rect key="frame" x="40.5" y="744" width="333" height="52"/>
                                 <state key="normal" image="ConfirmBtn"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Who Is Nearby will send you a verification code in your mobile number to verify your number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gS-ZQ-lko">
@@ -242,7 +242,7 @@
                             <constraint firstItem="YhF-hB-Mwb" firstAttribute="top" secondItem="qwN-qT-VSy" secondAttribute="bottom" constant="20" id="N7G-dR-RNr"/>
                             <constraint firstItem="s5e-ev-bA1" firstAttribute="leading" secondItem="dxz-dK-7uE" secondAttribute="leading" constant="30" id="NDw-t3-MTc"/>
                             <constraint firstItem="qwN-qT-VSy" firstAttribute="top" secondItem="9gS-ZQ-lko" secondAttribute="bottom" constant="40" id="OFn-ht-rS5"/>
-                            <constraint firstAttribute="bottom" secondItem="zZc-bW-Ndr" secondAttribute="bottom" constant="40" id="PRQ-XE-hnr"/>
+                            <constraint firstAttribute="bottom" secondItem="zZc-bW-Ndr" secondAttribute="bottom" constant="100" id="PRQ-XE-hnr"/>
                             <constraint firstItem="Ai8-xf-Fig" firstAttribute="top" secondItem="z5p-sb-3LK" secondAttribute="top" id="Q2V-0s-in0"/>
                             <constraint firstItem="N31-uD-DHW" firstAttribute="leading" secondItem="dxz-dK-7uE" secondAttribute="leading" constant="30" id="VeY-R8-Yn7"/>
                             <constraint firstItem="s5e-ev-bA1" firstAttribute="top" secondItem="YhF-hB-Mwb" secondAttribute="bottom" constant="29" id="Wqf-sd-9wb"/>
@@ -272,6 +272,6 @@
         <image name="backButton" width="29" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ptq-S7-H3W"/>
+        <segue reference="asT-9l-0UF"/>
     </inferredMetricsTieBreakers>
 </document>
