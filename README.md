@@ -1,33 +1,31 @@
-<p align="center">
-  <img width="300" height="300" src="http://old.unb.com.bd/media/imgAll/August2017/BG/NSU-Logo-201709100837.JPG">
-</p>
 
-Project Name: Middle East Visa Language Translator
-Course Number: CSE299
-Section: 2
-Group: 1
-Faculty Name: Shaikh Shawon Arefin Shimon
-Semester: Summer 19
+![North South University Logo](http://old.unb.com.bd/media/imgAll/August2017/BG/NSU-Logo-201709100837.JPG)
 
-Member 1
-Name: Md. Shafiqul Islam
-NSU ID: 161 0786 042
-NSU E-Mail: md.shafiqul@northsouth.edu
+Project Name: Middle East Visa Language Translator </br>
+Course Number: CSE299 </br>
+Section: 2</br>
+Group: 1</br>
+Faculty Name: Shaikh Shawon Arefin Shimon</br>
+Semester: Summer 19</br>
 
-Member 2
-Name: Asha Das
-NSU ID: 162 0095 042 
-NSU E-Mail: asha.das@northsouth.edu
+Member 1</br>
+Name: Md. Shafiqul Islam</br>
+NSU ID: 161 0786 042</br>
+NSU E-Mail: md.shafiqul@northsouth.edu</br>
 
-Git Repository Link
-[Repository](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU)
-Date Created: 25th June 2019
+Member 2</br>
+Name: Asha Das</br>
+NSU ID: 162 0095 042 </br>
+NSU E-Mail: asha.das@northsouth.edu</br>
+
+Git Repository Link</br>
+[Repository](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU)</br>
+Date Created: 25th June 2019</br>
+
 
 ----
 
-
 ### Project Idea:
-
 <p align="justify">
 We want to make an app in iOS 12, which will help our community more likely the working class people who want to go to the Middle East to do jobs. We know that there are so many people from our country every day, leaving the country to earn their livelihood or for a better life they are leaving the country. But in the process, sometimes they face a lot of difficulties and problems. They got cheated by some people who process their visa. The people who supply the visa or do the processing to help them get the visa. The visa providers tell them the wrong things about their visa type. Sometimes they even lie about the job they will be doing abroad. The cheater also lies about their salary they will get for the work they will do. They sell the visa for a higher price and who is buying the visa get cheated. We want to solve this problem. Our app will scan the visa first and then it will tell them about the visa category and types of work they can do with the respective type of visa and maybe the salary also which they will be getting after doing their job there. In this way, the working class people most likely who are not aware of Arabic language and visa type can be saved from getting cheated by some cheaters who are using poor peoples trust to make money in a bad way.
 
