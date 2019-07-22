@@ -1,5 +1,6 @@
-
 ![North South University Logo](http://old.unb.com.bd/media/imgAll/August2017/BG/NSU-Logo-201709100837.JPG)
+
+</br>
 Project Name: Middle East Visa Language Translator </br>
 Course Number: CSE299 </br>
 Section: 2</br>
