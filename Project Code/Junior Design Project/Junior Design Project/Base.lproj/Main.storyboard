@@ -271,19 +271,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Verified Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="d4a-tD-HQl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Verified Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="d4a-tD-HQl">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Account Verified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I04-ho-YNW">
-                                <rect key="frame" x="57" y="421" width="301" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Verified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I04-ho-YNW">
+                                <rect key="frame" x="56.5" y="420.5" width="301" height="55"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="I04-ho-YNW" firstAttribute="centerY" secondItem="Rsf-mP-bqx" secondAttribute="centerY" id="0fk-S7-20P"/>
+                            <constraint firstItem="I04-ho-YNW" firstAttribute="centerX" secondItem="Rsf-mP-bqx" secondAttribute="centerX" id="0xB-Mw-mFw"/>
+                            <constraint firstItem="d4a-tD-HQl" firstAttribute="trailing" secondItem="0ci-Xe-nb8" secondAttribute="trailing" id="3F0-ub-CRZ"/>
+                            <constraint firstItem="d4a-tD-HQl" firstAttribute="leading" secondItem="0ci-Xe-nb8" secondAttribute="leading" id="3Zi-lt-ewA"/>
+                            <constraint firstItem="d4a-tD-HQl" firstAttribute="top" secondItem="Rsf-mP-bqx" secondAttribute="top" id="Hxt-py-Hai"/>
+                            <constraint firstAttribute="bottom" secondItem="d4a-tD-HQl" secondAttribute="bottom" id="YWA-6B-Q20"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0ci-Xe-nb8"/>
                     </view>
                 </viewController>
