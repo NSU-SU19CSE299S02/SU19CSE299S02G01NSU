@@ -1,26 +1,32 @@
-![North South University Logo](http://old.unb.com.bd/media/imgAll/August2017/BG/NSU-Logo-201709100837.JPG)
-
-</br>
+<p align="center">
+  <img width="300" height="300" src="http://old.unb.com.bd/media/imgAll/August2017/BG/NSU-Logo-201709100837.JPG">
+</p>
+<p align="center" style = "font-family:calibri;font-size:11px" >
 Project Name: Middle East Visa Language Translator </br>
-Course Number: CSE299 </br>
+Course Number: CSE299</br>
 Section: 2</br>
 Group: 1</br>
 Faculty Name: Shaikh Shawon Arefin Shimon</br>
 Semester: Summer 19</br>
-
 Member 1</br>
 Name: Md. Shafiqul Islam</br>
 NSU ID: 161 0786 042</br>
 NSU E-Mail: md.shafiqul@northsouth.edu</br>
-
-Member 2</br>
-Name: Asha Das</br>
-NSU ID: 162 0095 042 </br>
-NSU E-Mail: asha.das@northsouth.edu</br>
-
-Git Repository Link</br>
-[Repository](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU)</br>
-Date Created: 25th June 2019</br>
+Member 2
+</br>
+Name: Asha Das
+</br>
+NSU ID: 162 0095 042 
+</br>
+NSU E-Mail: asha.das@northsouth.edu 
+</br>
+Git Repository Link
+</br>
+https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU
+</br>
+Date Created: 25th June 2019
+</br>
+</p>
 
 
 ----
