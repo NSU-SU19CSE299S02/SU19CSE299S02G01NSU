@@ -297,10 +297,10 @@
             </objects>
             <point key="canvasLocation" x="2496" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Google Sign In-->
         <scene sceneID="b52-0B-70K">
             <objects>
-                <viewController id="aob-oG-dwI" sceneMemberID="viewController">
+                <viewController id="aob-oG-dwI" customClass="GoogleSignIn" customModule="Junior_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ti-uS-c8Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,7 +322,6 @@
         <image name="backButton" width="29" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="266-Ez-VCB"/>
         <segue reference="asT-9l-0UF"/>
     </inferredMetricsTieBreakers>
 </document>
