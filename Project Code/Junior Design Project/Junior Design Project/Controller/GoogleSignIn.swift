@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class GoogleSignIn: UIViewController , GIDSignInUIDelegate {
 
@@ -20,6 +21,7 @@ class GoogleSignIn: UIViewController , GIDSignInUIDelegate {
         view.addSubview(gSignIn)
         
         // Add sign out button
+      
         let signOut = UIButton(frame: CGRect(x: 50, y: 50, width: 100, height: 30))
         signOut.backgroundColor = UIColor.red
         signOut.setTitle("Sign Out", for: .normal)
@@ -27,25 +29,11 @@ class GoogleSignIn: UIViewController , GIDSignInUIDelegate {
         signOut.center.y = view.center.y + 100
         signOut.addTarget(self, action: #selector(self.signOut(_:)), for: .touchUpInside)
         self.view.addSubview(signOut)
-        // Do any additional setup after loading the view, typically from a nib.
     }
-    
     @objc func signOut(_ sender: UIButton) {
-        print("Signing Out")
         GIDSignIn.sharedInstance().signOut()
-        
-        let firebaseAuth = Auth.auth()
-        do {
-            try firebaseAuth.signOut()
-        } catch let signOutError as NSError {
-            print("Failed to sign out")
-            print(signOutError)
-            return
-        }
-        
         print("Signed out")
         
     }
-
 
 }

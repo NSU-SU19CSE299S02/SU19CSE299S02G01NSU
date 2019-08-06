@@ -216,6 +216,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-bW-Ndr">
                                 <rect key="frame" x="40.5" y="744" width="333" height="52"/>
                                 <state key="normal" image="ConfirmBtn"/>
+                                <connections>
+                                    <segue destination="aob-oG-dwI" kind="show" id="cjC-Qb-pH1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Who Is Nearby will send you a verification code in your mobile number to verify your number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gS-ZQ-lko">
                                 <rect key="frame" x="30" y="135" width="354" height="61"/>
