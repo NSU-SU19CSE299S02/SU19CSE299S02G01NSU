@@ -13,6 +13,8 @@
 		2B00723A22C1F24900FA03F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B00723922C1F24900FA03F1 /* Assets.xcassets */; };
 		2B00723D22C1F24900FA03F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B00723B22C1F24900FA03F1 /* LaunchScreen.storyboard */; };
 		2B3CF62422F95FFF009F00D4 /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CF62322F95FFF009F00D4 /* GoogleSignIn.swift */; };
+		2B5CE10A23145180006FDD30 /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CE10923145180006FDD30 /* CreateUserVC.swift */; };
+		2B5CE10C2314595E006FDD30 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B5CE10B2314595E006FDD30 /* GoogleService-Info-2.plist */; };
 		2B910C2722D0ED6300FF154C /* greyBackgroundForTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B910C2622D0ED6300FF154C /* greyBackgroundForTextField.swift */; };
 		2BCF4E2922CA8F730041CF61 /* blurBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF4E2822CA8F730041CF61 /* blurBackground.swift */; };
 		2BCF4E2B22CA92EA0041CF61 /* darkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF4E2A22CA92EA0041CF61 /* darkBackground.swift */; };
@@ -33,6 +35,8 @@
 		2B00723C22C1F24900FA03F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B00723E22C1F24900FA03F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B3CF62322F95FFF009F00D4 /* GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		2B5CE10923145180006FDD30 /* CreateUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
+		2B5CE10B2314595E006FDD30 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		2B910C2622D0ED6300FF154C /* greyBackgroundForTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greyBackgroundForTextField.swift; sourceTree = "<group>"; };
 		2BCF4E2822CA8F730041CF61 /* blurBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurBackground.swift; sourceTree = "<group>"; };
 		2BCF4E2A22CA92EA0041CF61 /* darkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkBackground.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 				2B00723922C1F24900FA03F1 /* Assets.xcassets */,
 				2B00723B22C1F24900FA03F1 /* LaunchScreen.storyboard */,
 				2B00723E22C1F24900FA03F1 /* Info.plist */,
+				2B5CE10B2314595E006FDD30 /* GoogleService-Info-2.plist */,
 			);
 			path = "Junior Design Project";
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 				2BF972FE22DDA9B600F838DA /* UserVerficationVC.swift */,
 				2BDA7B3222E6E3D3004866B7 /* accountVerifiedVC.swift */,
 				2B3CF62322F95FFF009F00D4 /* GoogleSignIn.swift */,
+				2B5CE10923145180006FDD30 /* CreateUserVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 			files = (
 				2B00723D22C1F24900FA03F1 /* LaunchScreen.storyboard in Resources */,
 				2B00723A22C1F24900FA03F1 /* Assets.xcassets in Resources */,
+				2B5CE10C2314595E006FDD30 /* GoogleService-Info-2.plist in Resources */,
 				2B00723822C1F24800FA03F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,13 +217,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Junior Design Project/Pods-Junior Design Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -267,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B910C2722D0ED6300FF154C /* greyBackgroundForTextField.swift in Sources */,
+				2B5CE10A23145180006FDD30 /* CreateUserVC.swift in Sources */,
 				2BF972FF22DDA9B600F838DA /* UserVerficationVC.swift in Sources */,
 				2B00723522C1F24800FA03F1 /* WelcomeScreen.swift in Sources */,
 				2B3CF62422F95FFF009F00D4 /* GoogleSignIn.swift in Sources */,
