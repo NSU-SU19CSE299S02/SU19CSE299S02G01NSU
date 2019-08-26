@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class CreateUserVC: UIViewController {
 
@@ -29,6 +30,15 @@ class CreateUserVC: UIViewController {
     
     //Actions
     @IBAction func createTapped(_ sender: Any) {
+        Auth.auth().createUser(withEmail: "", password: "") { (user, error) in
+            if let error = error{
+                debugPrint("Error creating user: \(error.localizedDescription)")
+            }
+        }
+            
+        
+        
+        
     }
     @IBAction func cancelTapped(_ sender: Any) {
     }

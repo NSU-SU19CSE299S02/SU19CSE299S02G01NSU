@@ -15,10 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        GIDSignIn.sharedInstance().clientID = "247383863998-v6nhjsbi3iq2qf46fh9u3hoehb0sf2cl.apps.googleusercontent.com"
-        GIDSignIn.sharedInstance().delegate = self
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        // Override point for customization after application launch.
+//        FirebaseApp.configure()
+//        GIDSignIn.sharedInstance().clientID = "247383863998-v6nhjsbi3iq2qf46fh9u3hoehb0sf2cl.apps.googleusercontent.com"
+//        GIDSignIn.sharedInstance().delegate = self
+//        return true
+//    }
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions:
+        [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
         return true
     }
     
