@@ -30,30 +30,105 @@ Date Created: 25th June 2019
 
 
 ----
+![Preview](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Project%20Code/Assets/app-icon/ios-marketing.png)
+# Visa Scanner
 
-### Project Idea:
-<p align="justify">
-We want to make an app in iOS 12, which will help our community more likely the working class people who want to go to the Middle East to do jobs. We know that there are so many people from our country every day, leaving the country to earn their livelihood or for a better life they are leaving the country. But in the process, sometimes they face a lot of difficulties and problems. They got cheated by some people who process their visa. The people who supply the visa or do the processing to help them get the visa. The visa providers tell them the wrong things about their visa type. Sometimes they even lie about the job they will be doing abroad. The cheater also lies about their salary they will get for the work they will do. They sell the visa for a higher price and who is buying the visa get cheated. We want to solve this problem. Our app will scan the visa first and then it will tell them about the visa category and types of work they can do with the respective type of visa and maybe the salary also which they will be getting after doing their job there. In this way, the working class people most likely who are not aware of Arabic language and visa type can be saved from getting cheated by some cheaters who are using poor peoples trust to make money in a bad way.
+#### A minimal visa scanner application built that will scan the visa and translate the language in English to help users.
 
-### Features
-- Scan the visa 
-- No extra camera will necessary for the scanning
-- he app will use the built-in camera from the phone
-- The app will ask if it can store the papers information for better support in the future.
-- Translate the language in English from the Arabic Language
-- Privacy Features which will allow the user to keep their data private
--  It will tell them about the work they will be able to do abroad
-- It will also tell them about overtime opportunities 
-- It can provide information about the time they can stay there
-- It may be able to guess the salary or shows the wage if it is available in the visa or the processing papers
+Download the Xcode Project From : [Xcode Project](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU)
 
-### Technology:
-<p align="justify">
-We will be using the latest version of swift 4 for making the iOS App. Swift 4 is fast and reliable for developing new apps for iOS development Apple is developing it for the last few years for a better and quicker app experience, and they are introducing some new features in every year which is making the language more usable. We know that for database for apps, one of the most reliable providers is Firestore. Firestore is much easier and faster it is expensive compared to the other databases, but as this app is for working class people, we will make less profit from the app because the money we can earn by showing them ad on the app we will invest in the database management or the development of the app. We will be using google translator API to translate Arabic to English or Bengali to translate the Arabic language.
-To do the work, maybe we will need to scan the visa, and for studying the permit, we will use the phone's camera.
-We will use apple Core ML technology to teach the app to collect the keyword from the visa and show information from the visa.
-If we need to use augmented reality to scan the visa from the passport or the papers. We can use apples AR kit 2.0
-  
-### Monetization:
-<p align="justify">
-Monetization is one of the most important things to plan before making an app. Because maintaining an app is not cheap. Even the database cost a considerable amount of money. The app will be free to download from the App Store, but We will show advertisements in the app in a specific period and the bottom space of the screen of the app will show advertisement. We are currently planning to use Google ad sense, for now, to display advertisements since it has become trendy and most of the companies which are showing their publication in the app are mainly using google for marketing their products.
+![Preview](./visual_designs/show.png)
+
+## Built With
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
+)](https://developer.apple.com/iphone/index.action)
+[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
+)](https://developer.apple.com/swift)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
+)](http://mit-license.org)
+[![Firestore](https://img.shields.io/badge/Database-Firestore-yellow)](https://firebase.google.com)
+
+ - [Swift 4](https://swift.org/blog/swift-4-0-released/)
+ - [Objective C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
+ - [Firestore](https://firebase.google.com/)
+
+### Documentations
+ - [Project Proposal](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/Project%20Proposal.docx)
+ - [UML Diagram](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/UML%20Visa.png)
+
+## Walkthrough
+### Sign In / Sign Up View
+
+![Preview](./visual_designs/signIn.gif)
+
+The Sign-In/Sign-Up view is pretty straight forward. Component's own states are maintained to display forms. Using google sign in an user can sign in to the app.
+
+
+### Home View
+
+![Preview](./visual_designs/post.gif)
+
+After a successful sign in or sign up, the user will be directed to the Home view. These view are created using the Xcode(https://developer.apple.com/xcode/) maintained by Swift state. Based on user's sign-in status, the user will be displayed the Home View or the Sign In / Sign Up View.
+
+The Home View is consists of four tabs -
+
+ - The Universal Timeline
+ - Create New Post
+ - Own Posts
+ - Settings
+
+These are swipeable tabs that are created by using the library [react-native-scrollable-tab-view](https://github.com/skv-headless/react-native-scrollable-tab-view). The top navigation bar is a customized one which I hacked from one of the examples of the library.
+
+The "Universal Timeline" component is a scroll view with "pull to refresh" functionality by using the [refresh control](https://facebook.github.io/react-native/docs/refreshcontrol.html). All the data are coming from Firebase NoSQL database. The next "Create New Post" component is used for creating a new post to the timeline. "Own Posts" will display own post count and own posts. Long press on any post from "Own Post" component will alert the user about deleting that post. Lastly, the "Settings" component is used to Sign Out the user or Delete account.
+
+
+## How to create your own copy of this app?
+### Prerequisites
+To create an own copy of this application, you have some prerequisites. They are -
+
+ - At first you need an Apple Machine like [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
+ - [Xcode](https://developer.apple.com/xcode/) installed on your system.
+ - [Swift-4](https://swift.org/blog/swift-4-0-released/) installed on your system. 
+ - [Github Desktop](https://desktop.github.com) installed on your system and a Git(https://github.com) account.
+ - A google account for having [Firebase Web](https://firebase.google.com/docs/web/setup) configuration.
+
+### Make own copy
+First clone the repository using:
+
+    git clone https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU
+
+Then install the necessary dependencies.
+
+At this point you need to have the configurations for a Firebase App. Just go to [Firebase Console](https://firebase.google.com/docs/web/setup) and follow the instructions.
+Then run the Xcode server.
+
+Open your emulator and wait until it completely boot up. Then run the app from your local machine.
+
+Now, you have your own copy of this application!
+
+## Path for Future Work
+* Add search functionality
+* Add unit tests for both backend and frontend
+* Ability to change the name and logo of the site from admin panel.
+* Make the installation process more interactive
+* Add multiple theme support.
+
+## License
+[MIT License](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/LICENSE).
+
+
+
+
+## Credits
+I barely create the application. I just created the front end shell and done some integration with firebase. All the credits goes to all library creators and contributors to those libraries. I'm really grateful to all of them.
+
+ - [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
+ - [Xcode](https://developer.apple.com/xcode/)
+ - [Swift-4](https://swift.org/blog/swift-4-0-released/)
+ - [Objective C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
+ - [Git](https://github.com)
+ - [Firebase](https://firebase.google.com/)
+ 
+
+Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas)
+Owned by [Shaikh Shawon Arefin Shimon](https://github.com/nsusas3)
