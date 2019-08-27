@@ -30,6 +30,8 @@ Date Created: 25th June 2019
 
 
 ----
+
+
 ![Preview](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Project%20Code/Assets/app-icon/ios-marketing.png)
 # Visa Scanner
 
@@ -231,3 +233,4 @@ Owned by [Shaikh Shawon Arefin Shimon](https://github.com/nsusas3)
 
 Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas)
 Owned by [Shaikh Shawon Arefin Shimon](https://github.com/nsusas3)
+
