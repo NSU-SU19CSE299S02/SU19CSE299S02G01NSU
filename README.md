@@ -38,7 +38,9 @@ Date Created: 25th June 2019
 
 Download the Xcode Project From : [Xcode Project](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU)
 
-![Preview](./visual_designs/show.png)
+<p align="center">
+  <img width="207" height="443" src="https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/demo.gif">
+</p>
 
 ## Built With
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
@@ -59,16 +61,28 @@ Download the Xcode Project From : [Xcode Project](https://github.com/ilmoislamns
  - [Flowchart](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/Fowchart.png)
  
 ## Walkthrough
+### Welcome Screen
+<p align="center">
+  <img width="207" height="443" src="https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/1.png">
+</p>
+
 ### Sign In / Sign Up View
 
-![Preview](./visual_designs/signIn.gif)
+<p align="center">
+  <img width="207" height="443" src="https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/3.png">
+</p>
+<p align="center">
+  <img width="207" height="443" src="https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/2.png">
+</p>
 
 The Sign-In/Sign-Up view is pretty straight forward. Component's own states are maintained to display forms. Using google sign in an user can sign in to the app.
 
 
 ### Home View
 
-![Preview](./visual_designs/post.gif)
+<p align="center">
+  <img width="207" height="443" src="https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/4.png">
+</p>
 
 After a successful sign in or sign up, the user will be directed to the Home view. These view are created using the Xcode(https://developer.apple.com/xcode/) maintained by Swift state. Based on user's sign-in status, the user will be displayed the Home View or the Sign In / Sign Up View.
 
@@ -134,16 +148,3 @@ I created the Front and Backend and done some integration with firebase and fire
 
 Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas) </br>
 Owned by [Shaikh Shawon Arefin Shimon](https://github.com/nsusas3)
-
-
- - [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
- - [Xcode](https://developer.apple.com/xcode/)
- - [Swift-4](https://swift.org/blog/swift-4-0-released/)
- - [Objective C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
- - [Git](https://github.com)
- - [Firebase](https://firebase.google.com/)
- 
-
-Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas)
-Owned by [Shaikh Shawon Arefin Shimon](https://github.com/nsusas3)
-
