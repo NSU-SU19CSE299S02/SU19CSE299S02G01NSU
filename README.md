@@ -88,14 +88,10 @@ After a successful sign in or sign up, the user will be directed to the Home vie
 
 The Home View is consists of four tabs -
 
- - The Universal Timeline
- - Create New Post
- - Own Posts
- - Settings
-
-These are swipeable tabs that are created by using the library [react-native-scrollable-tab-view](https://github.com/skv-headless/react-native-scrollable-tab-view). The top navigation bar is a customized one which I hacked from one of the examples of the library.
-
-The "Universal Timeline" component is a scroll view with "pull to refresh" functionality by using the [refresh control](https://facebook.github.io/react-native/docs/refreshcontrol.html). All the data are coming from Firebase NoSQL database. The next "Create New Post" component is used for creating a new post to the timeline. "Own Posts" will display own post count and own posts. Long press on any post from "Own Post" component will alert the user about deleting that post. Lastly, the "Settings" component is used to Sign Out the user or Delete account.
+ - iPhone Camera
+ - Visa Information
+ - Estimated Salary 
+ - Visa Duration
 
 
 ## How to create your own copy of this app?
@@ -123,9 +119,9 @@ Open your emulator and wait until it completely boot up. Then run the app from y
 Now, you have your own copy of this application!
 
 ## Path for Future Work
-* Add search functionality
+* Add Machine Learning to Teach the App for faster and accurate result
 * Add unit tests for both backend and frontend
-* Ability to change the name and logo of the site from admin panel.
+* Ability to modify user name and address
 * Make the installation process more interactive
 * Add multiple theme support.
 
