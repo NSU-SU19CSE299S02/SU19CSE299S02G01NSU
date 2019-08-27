@@ -30,8 +30,10 @@ Date Created: 25th June 2019
 
 
 ----
+<p align="center">
+  <img width="300" height="300" src="https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Project%20Code/Assets/app-icon/ios-marketing.png">
+</p>
 
-![Preview](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Project%20Code/Assets/app-icon/ios-marketing.png)
 # Visa Scanner
 
 #### A minimal visa scanner application built that will scan the visa and translate the language in English to help users.
